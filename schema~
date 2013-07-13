@@ -1,0 +1,3 @@
+---schema for addressbook---
+
+create database addressbook;

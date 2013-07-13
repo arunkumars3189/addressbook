@@ -1,0 +1,5 @@
+---schema for addressbook---
+
+create database addressbook;
+create table contact (sno int NOT NULL AUTO_INCREMENT,name varchar(25) NOT NULL,relation varchar(25),phone int(10),PRIMARY KEY(sno));
+
