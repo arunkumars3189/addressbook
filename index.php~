@@ -1,0 +1,30 @@
+<?php
+/*variables to get fron the html pages*/
+$a = $_POST['name'];
+$b = $_POST['relation'];
+$c = $_POST['phone'];
+
+/*MySql database connection in php*/
+$con = mysql_connect(localhost, root, root123);
+if (!$con)
+	{die('could not connect' . mysql_error());
+		}
+		
+		mysql_select_db("addressbook", $con);
+$sql="INSERT INTO contact(name, relation, phone) VALUES('$a','$b','$c')";
+
+if (!mysql_query($sql,$con));
+  {
+	echo "failed";
+  die('Error: ' . mysql_error());
+	
+  }
+  else { echo "Successfully inserted";}
+
+mysql_close($con);
+
+
+
+
+?>
+

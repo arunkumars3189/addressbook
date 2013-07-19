@@ -14,7 +14,7 @@
     </script>-->
 </head>
 <body>
-<form action="form.php" method="post">
+<form action="index.php" method="post">
 	name	:<input type="text" name="name" ></br>
 	ref	:<input type="text" name="relation"></br>
 	number	:<input type="text" name="phone"></br>
