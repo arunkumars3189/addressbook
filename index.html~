@@ -14,10 +14,10 @@
     </script>-->
 </head>
 <body>
-<form action="index.php" method="post">
+<form action="form.php" method="post">
 	name	:<input type="text" name="name" ></br>
 	ref	:<input type="text" name="relation"></br>
-	number	:<input type="text" name="phone"></br>
+	number:<input type="text" name="phone"></br>
 	<input type="submit" value="submit">
 </form>
 </body>
